@@ -1,4 +1,5 @@
 [![CircleCI](https://circleci.com/gh/springframeworkguru/spring5-webflux-rest/tree/master.svg?style=svg)](https://circleci.com/gh/springframeworkguru/spring5-webflux-rest/tree/master)
+[![GitHub Download Count](https://github-basic-badges.herokuapp.com/downloads/springframeworkguru/spring5-webflux-rest/total.svg)]()
 # Spring Framework 5 - RESTFul Interfaces with WebFlux
 
 The source code in this repository is to support my course [Spring Framework 5: Beginner to Guru](https://www.udemy.com/spring-framework-5-beginner-to-guru/?couponCode=GITWEBFLUXREST).
