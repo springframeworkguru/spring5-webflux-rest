@@ -48,10 +48,10 @@ public class VendorController {
 
         return vendorRepository.findById(id)
                 .map(vendorToPatch -> {
-                    if (!vendorToPatch.getFirstName().equals(vendor.getFirstName())) {
+                    if (vendor.getFirstName() != null) {
                         vendorToPatch.setFirstName(vendor.getFirstName());
                     }
-                    if (!vendorToPatch.getLastName().equals(vendor.getLastName())) {
+                    if (vendor.getLastName() != null) {
                         vendorToPatch.setLastName(vendor.getLastName());
                     }
                     return vendorToPatch;

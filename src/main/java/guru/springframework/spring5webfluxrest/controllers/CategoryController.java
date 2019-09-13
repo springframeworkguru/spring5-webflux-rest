@@ -47,7 +47,7 @@ public class CategoryController {
 
         return categoryRepository.findById(id)
                 .map(categoryToPatch -> {
-                    if (!categoryToPatch.getDescription().equals(category.getDescription())) {
+                    if (category.getDescription() != null) {
                         categoryToPatch.setDescription(category.getDescription());
                     }
                     return categoryToPatch;
